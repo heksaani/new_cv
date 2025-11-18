@@ -5,16 +5,10 @@ description = "CV"
 readme = "README.md"
 site_author = "Heidi Putkuri"
 
-nav = [
-  {"Home" = "index.md"},
-  {"Portfolio" = "portfolio.md"},
-  {"Education" = [
-      {"HY" = "HY.md"},
-      {"KAMK" = "KAMK.md"}
-  ]},
-  {"Photography" = "photography.md"}
+[project.theme]
+features = [
+    "navigation.top"
 ]
-
 
 requires-python = ">=3.12"
 dependencies = [
