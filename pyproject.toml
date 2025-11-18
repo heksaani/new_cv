@@ -1,0 +1,22 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "CV"
+readme = "README.md"
+site_author = "Heidi Putkuri"
+
+nav = [
+  {"Home" = "index.md"},
+  {"Portfolio" = "portfolio.md"},
+  {"Education" = [
+      {"HY" = "HY.md"},
+      {"KAMK" = "KAMK.md"}
+  ]},
+  {"Photography" = "photography.md"}
+]
+
+
+requires-python = ">=3.12"
+dependencies = [
+    "zensical>=0.0.8",
+]
