@@ -33,7 +33,7 @@ phone: +358443469151
 - Technical testing CLI tool
 
 **TOOLS**:
-python, git, nextflow, oracle sql developer
+python, git, nextflow, oracle sql developer, git
 
 ### Master thesis project
 []() | 06/2024-10/2024
@@ -42,7 +42,7 @@ My work was in collaboration project with Ville Mustonen and Melina Markkanen to
 I did analysis on methylation data and trained Random forest model to classify bacterial species from waste water samples. My work was used as part of scientific publication.
 
 **TOOLS**:
-python
+python, git
 
 ### Research Assistant
 [Folkhälsan reseach institute](https://research.folkhalsan.fi/genetics/eye-genetics "Eye Genetics Group") | 01/2023 - 12/2024
@@ -50,7 +50,7 @@ python
 As a research assistant, I conducted downstream analysis of sequencing data, statical analyses and developed automated pipelines for robust, reproducible workflows. I managed large-scale data storage systems in CSC Allas. My role also involved leveraging batch processing using CSC to handle high-throughput computational tasks, such as sequence alignment of long read sequencing data and variant calling, optimizing workflows for sequencing data from multiple patients. Additionally, I collaborated with multidisciplinary team which included doctors and biologist from varying fields to integrate bioinformatics solutions into research projects in the biomedical field.
 
 **TOOLS**:
-python, slurm, csc, bash
+python, slurm, csc, bash, git
 
 ### Software Testing
 [FISION OY](https://www.fision.fi/fi/) | 09/2021-02/2022
@@ -58,6 +58,7 @@ python, slurm, csc, bash
 I worked part time in a software development company as a GUI tester. The main focus of my work was on user interface testing and documentation but I was also learning about the software development of the system.
 
 -----
-[Download PDF](#){ .md-button }
+
+[Download PDF](#){ .md-button onclick="window.print()" }
 
 
