@@ -4,7 +4,7 @@ icon: lucide/rocket
 
 # Heidi Putkuri
 
-
+Currently working as bioinformatician while expanding my knowledge to data engineering and AI
 
 ## Contact Info
 
@@ -17,21 +17,23 @@ phone: +358443469151
 
 ## Education
 
-- Bachelor of Science in Engineering | [Data engineering and AI]() | 2024-
+- Bachelor of Science in Engineering | [Data engineering and AI](https://opinto-opas.kamk.fi/68147/fi/68087/68097) | 2024-
 - Master of Science |  [Life Science Informatics](https://www.helsinki.fi/en/degree-programmes/life-science-informatics-masters-programme) | 2022-2025 | [Thesis](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5 "Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities")
 - Bachelor of Science | [Molecular Biosciences](https://www.helsinki.fi/en/degree-programmes/molekyylibiotieteiden-kandiohjelma) | 2019-2022  
 
 ## Experience
 
 ### Bioinformatician 
-[Finnish Institute for Health and welfare](https://thl.fi/en/main-page) | 07/2025-
+[Finnish Institute for Health and Welfare](https://thl.fi/en/main-page) | 07/2025-
 
 **Current Projects:**
 
-- Automation of sequencing data pipelines
-- LIMS Database migration
+- Automation of sequencing data analysis pipelines
+- LIMS Database migration: Data 
 - Technical testing CLI tool
 
+**TOOLS**:
+python, git, nextflow, oracle sql developer
 
 ### Master thesis project
 []() | 06/2024-10/2024
@@ -48,13 +50,14 @@ python
 As a research assistant, I conducted downstream analysis of sequencing data, statical analyses and developed automated pipelines for robust, reproducible workflows. I managed large-scale data storage systems in CSC Allas. My role also involved leveraging batch processing using CSC to handle high-throughput computational tasks, such as sequence alignment of long read sequencing data and variant calling, optimizing workflows for sequencing data from multiple patients. Additionally, I collaborated with multidisciplinary team which included doctors and biologist from varying fields to integrate bioinformatics solutions into research projects in the biomedical field.
 
 **TOOLS**:
-python, slurm, csc, 
+python, slurm, csc, bash
 
 ### Software Testing
 [FISION OY](https://www.fision.fi/fi/) | 09/2021-02/2022
 
 I worked part time in a software development company as a GUI tester. The main focus of my work was on user interface testing and documentation but I was also learning about the software development of the system.
 
-
 -----
 [Download PDF](#){ .md-button }
+
+
