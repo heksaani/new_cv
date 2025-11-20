@@ -14,7 +14,6 @@ phone: +358443469151
 
 [linked in](https://www.linkedin.com/in/heidi-putkuri/) | [github](https://github.com/heksaani)
 
-
 ## Education
 
 - Bachelor of Science in Engineering | [Data engineering and AI](https://opinto-opas.kamk.fi/68147/fi/68087/68097) | 2024-
@@ -36,7 +35,7 @@ phone: +358443469151
 python, git, nextflow, oracle sql developer, git
 
 ### Master thesis project
-[]() | 06/2024-10/2024
+University of Helsinki | 06/2024-10/2024
 
 My work was in collaboration project with Ville Mustonen and Melina Markkanen to study waste water microbial methylation patterns for my master thesis.
 I did analysis on methylation data and trained Random forest model to classify bacterial species from waste water samples. My work was used as part of scientific publication.
@@ -50,7 +49,7 @@ python, git
 As a research assistant, I conducted downstream analysis of sequencing data, statical analyses and developed automated pipelines for robust, reproducible workflows. I managed large-scale data storage systems in CSC Allas. My role also involved leveraging batch processing using CSC to handle high-throughput computational tasks, such as sequence alignment of long read sequencing data and variant calling, optimizing workflows for sequencing data from multiple patients. Additionally, I collaborated with multidisciplinary team which included doctors and biologist from varying fields to integrate bioinformatics solutions into research projects in the biomedical field.
 
 **TOOLS**:
-python, slurm, csc, bash, git
+python, slurm, csc, bash, git, cloud storage
 
 ### Software Testing
 [FISION OY](https://www.fision.fi/fi/) | 09/2021-02/2022
