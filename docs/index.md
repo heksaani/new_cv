@@ -14,6 +14,10 @@ phone: +358443469151
 
 [linked in](https://www.linkedin.com/in/heidi-putkuri/) | [github](https://github.com/heksaani)
 
+## Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=python,java,anaconda,bash,docker,&theme=light)](https://skillicons.dev)
+
+
 ## Education
 
 - Bachelor of Science in Engineering | [Data engineering and AI](https://opinto-opas.kamk.fi/68147/fi/68087/68097) | 2024-
