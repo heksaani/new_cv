@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "CV"
 readme = "README.md"
 site_author = "Heidi Putkuri"
+dependencies = [
+    "zensical>=0.0.15",
+]
 
 [project.theme]
 features = [

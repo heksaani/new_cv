@@ -14,11 +14,8 @@ site_author = "Heidi Putkuri"
 
 nav = [
   {"Home" = "index.md"},
-  {"Portfolio" = "portfolio.md"},
+  {"Projects" = "projects.md"},
   {"Photography" = "photography.md"},
-  {"HY" = "HY.md"},
-  {"KAMK" = "KAMK.md"},
-
 ]
 
 # The site_url is the canonical URL for your site. When building online
