@@ -21,7 +21,6 @@ mail: heidi.putkuri@hotmail.com
 Python · Java · Bash · R · SQL
 
 ### Data Engineering & ML
-[![Languages](https://skillicons.dev/icons?i=mlops&theme=light)](https://skillicons.dev)
 **Pipelines:** 
 **Libraries:** Pandas · NumPy  · Flask  
 **Machine Learning:** Scikit-learn · PyTorch · MLflow  
@@ -33,7 +32,7 @@ Python · Java · Bash · R · SQL
 Docker · Git(Github + Gitlab) · CI/CD (GitHub Actions) · Linux · Azure ·  Terraform 
 
 ### Databases & Cloud
-[![Databases](https://skillicons.dev/icons?i=aws&perline=3)](https://skillicons.dev)
+[![Databases](https://skillicons.dev/icons?i=mysql,postgresql,aws&perline=3)](https://skillicons.dev)
 
 Oracle · PostgreSQL · MongoDB · AWS (S3) · Terraforms
 ### Web
