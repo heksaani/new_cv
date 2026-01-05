@@ -12,8 +12,6 @@ Currently working as bioinformatician while expanding my knowledge to data engin
 
 mail: heidi.putkuri@hotmail.com
 
-
-
 ## Tech Stack
 ### Programming & Scripting
 [![Languages](https://skillicons.dev/icons?i=python,java,bash,r&theme=light)](https://skillicons.dev)
@@ -21,10 +19,10 @@ mail: heidi.putkuri@hotmail.com
 Python · Java · Bash · R · SQL
 
 ### Data Engineering & ML
-**Pipelines:** 
+**Pipelines:** Nextflow ·  
 **Libraries:** Pandas · NumPy  · Flask  
 **Machine Learning:** Scikit-learn · PyTorch · MLflow  
-**Bioinformatics:** Biopython · Sequence analysis · Genomics tools
+**Bioinformatics:** Biopython · Sequence analysis · Variant calling 
 
 ### DevOps & Infrastructure
 [![DevOps](https://skillicons.dev/icons?i=docker,git,github,githubactions,gitlab,linux,azure,greatexpectations&perline=4)](https://skillicons.dev)
@@ -32,15 +30,15 @@ Python · Java · Bash · R · SQL
 Docker · Git(Github + Gitlab) · CI/CD (GitHub Actions) · Linux · Azure ·  Terraform 
 
 ### Databases & Cloud
-[![Databases](https://skillicons.dev/icons?i=mysql,postgresql,aws&perline=3)](https://skillicons.dev)
+[![Databases](https://skillicons.dev/icons?i=mysql,mongo,postgresql,aws&perline=3)](https://skillicons.dev)
 
-Oracle · PostgreSQL · MongoDB · AWS (S3) · Terraforms
+Oracle · PostgreSQL · MongoDB · AWS (S3) 
 ### Web
 [![web](https://skillicons.dev/icons?i=html,css&perline=3)](https://skillicons.dev)
 
-html css
+html · css
 ### Currently Learning
-Kubernetes · Advanced testing (pytest) · System architecture patterns
+testing (pytest) · System architecture patterns
 
 
 ## Education
@@ -55,10 +53,10 @@ Kubernetes · Advanced testing (pytest) · System architecture patterns
 [Finnish Institute for Health and Welfare](https://thl.fi/en/main-page) | July 2025 - Present
 
 - **Automated sequencing data analysis workflows**, reducing manual processing time, by developing Python-based pipeline orchestration for viral sequencing data.
-- **Part of LIMS database migration** affecting thousands of records and hundreds of users, ensuring zero data loss by implementing robust validation checks and migration scripts in Oracle SQL
-- 
+- **Part of LIMS database migration** affecting thousands of records and hundreds of users, creating data views using sql to ensure data integrity and consistency during the migration process.
 
-**Tools:** Python · Git · Nextflow · Oracle SQL · Pipeline automation
+
+**Tools:** Python · Git · Nextflow · Oracle SQL · Docker · Linux ·
 
 ---
 
@@ -68,7 +66,7 @@ University of Helsinki | June 2024 - October 2024
 **Thesis:** [Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5)
 
 - **Achieved 94% classification accuracy** in bacterial species identification from wastewater samples, by developing a Random Forest model trained on position weight matrix representations of NGS methylation data
-- **Contributed to peer-reviewed publication** (published 2025) in collaboration with Melina Markkanen, by transforming raw methylation data into machine learning-ready formats and implementing the classification pipeline
+- **Contributed to peer-reviewed publication** (to be published 2025) in collaboration with Melina Markkanen, by transforming raw methylation data into machine learning-ready formats and implementing the classification pipeline
 - **Processed** more than 20 Gbs of sequencing data, creating reproducible analysis workflow documented in version-controlled Python codebase
 
 **Tools:** Python · Scikit-learn · Pandas · Git · NGS data analysis
