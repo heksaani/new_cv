@@ -13,21 +13,27 @@ We experienced with two different time series models:
 
 ++ also calculated naive average model as benchmark
 
-### Technologies used:
+### Libraries:
 - python
 - pandas
+## LASTFM telegram bot | [github](https://github.com/heksaani/LASTFMBOT)
 
-## Mutation signature classification | [github](https://github.com/heksaani/ML-in-molecular-biology/blob/main/GROUP_WORK/GROUP.ipynb)
+
+
+## Classifying cancer tissue types | [notebook](https://github.com/heksaani/ML-in-molecular-biology/blob/main/GROUP_WORK/GROUP.ipynb)
 
 ### Objective:
-Developed a machine learning pipeline to identify the primary tissue of origin in cancer samples by analyzing mutational signatures— patterns of mutations associated with specific biological processes or exposures.
+Our team explored different machine learning models to classify the primary tissue of origin in cancer samples by using mutational signatures— patterns of mutations associated with specific biological processes or exposures.
+
+### Tech Stack
+Python Pandas NumPy Jupyter Notebook Scikit-learn Matplotlib, Seaborn, Plotly
 
 ### My contribution:
 
 #### Data preprocessing & visualization:
-Engineered the data preprocessing and Exploratory Data Analysis (EDA) workflow.
+Cleaned and preprocessed the mutation signature dataset. Created visualizations to explore data distributions and relationships using Matplotlib, Seaborn, and Plotly.
 
-#### Modeling & Evaluation:
+#### Modeling:
 Implemented the MLP and combined all of the other classification algorithms (KNN, SVM, Random Forest, SGD, Logistic Regression, Naive Bayes) into a cohesive pipeline. Conducted hyperparameter tuning to optimize model performance.
 
 #### Project Management: 
@@ -37,11 +43,7 @@ Implemented the MLP and combined all of the other classification algorithms (KNN
 Top Performer: The Multi-layer Perceptron (MLP) achieved a peak accuracy of 80% after hyperparameter tuning.
 ![alt text](../site/assets/images/image.png)
  
-### Tech Stack
-**Languages & Data:** Python (Pandas, NumPy)  
-**Modeling:** Scikit-learn (KNN, SVM, Random Forest, SGD, Logistic Regression, Naive Bayes, MLP)   
-**Visualization:** Matplotlib, Seaborn, Plotly
+
 
 ## Health data notebook
-
 
