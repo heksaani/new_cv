@@ -111,7 +111,6 @@ Currently using ![VSCode](https://img.shields.io/badge/VSCode-99c9ef?style=flat&
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](#)
 [![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=flat&logo=amazons3&logoColor=white)](#)
 
-
 ---
 
 [Download PDF](){ .md-button onclick="window.print()" }
