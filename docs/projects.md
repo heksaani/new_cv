@@ -30,7 +30,7 @@ Arduino · C++ · IoT · Embedded Systems
 
 Designed and built an automated humidity monitoring and ventilation control system with my friend for a greenhouse environment using the Arduino UNO R4 WiFi. The system reads sensor data in real time and triggers ventilation responses automatically, removing the need for manual monitoring.
 
-## Health data notebook (2022)
+## Health data notebook (2022) | [github](https://github.com/heksaani/DataScienceProject/blob/main/HealthNotebook.ipynb)
 
 Python · Jupyter · Data Analysis
 
