@@ -1,53 +1,37 @@
 # Projects
 
-## Waste container empty date prediction (2025)
-
-This was a client project and part of a machine learning course [Projektiopinnot 2 - Koneoppiminen](https://opinto-opas.kamk.fi/68147/fi/68087/68097/561/0/24520). The goal was to predict the date when a waste container will be full based on historical data. The dataset contained information about the fill levels of waste containers, along with timestamps and other relevant features.
-
-We experimented with two different time series models: AutoRegressive Integrated Moving Average (ARIMA) and Error, Trend, Seasonality (ETS). Both models were evaluated based on their predictive performance, and we found that the ARIMA model provided better accuracy in forecasting the fill levels of the waste containers.
-
 ## Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities (2024-2025)
 
+Bioinformatics · Random Forest · Python
 
-Achieved 94% classification accuracy in bacterial species identification from wastewater samples, using a Random Forest model trained on position weight matrix representations of NGS methylation position data.
+Developed a novel computational method to classify bacterial species within complex microbial communities — a problem that traditional approaches struggle with due to overlapping signals. Converted raw methylation signals from next-generation sequencing data into position weight matrix representations and trained a Random Forest classifier, achieving 94% species classification accuracy on real wastewater samples.
+My work is part of scientific publication (Markkanen et al., 2026) and is available as a preprint [here](https://www.medrxiv.org/content/10.64898/2026.02.18.26346558v2), and the analysis workflow is documented in the github repository found [here](https://github.com/melinamarkkanen/Methylation).
 
-## LASTFM telegram bot (2025) | [github](https://github.com/heksaani/LASTFMBOT) 
+## LASTFM telegram bot (2025) | [github](https://github.com/heksaani/LASTFMBOT)
 
-![test](assets/images/last_fm_bot_example.png)
+Python · Telegram API · Last.fm API
+
+Built a Telegram bot that pulls and surfaces personalised music listening statistics from Last.fm. Lets users query their listening history, top artists, and recent tracks directly from a chat interface — no app switching required.
+
+![test](assets/images/lastfm.png)
 
 ## Classifying cancer tissue types (2024) | [notebook](https://github.com/heksaani/ML-in-molecular-biology/blob/main/GROUP_WORK/GROUP.ipynb)
 
-### Objective
+Machine Learning · Python · Scikit-learn · Plotly
 
-Our team explored different machine learning models to classify the primary tissue of origin in cancer samples by using mutational signatures— patterns of mutations associated with specific biological processes or exposures.
-
-### Tech Stack
-
-Python Pandas NumPy Jupyter Notebook Scikit-learn Matplotlib, Seaborn, Plotly
-
-### My contribution
-
-#### Data preprocessing & visualization
-
-Cleaned and preprocessed the mutation signature dataset. Created visualizations to explore data distributions and relationships using Matplotlib, Seaborn, and Plotly.
-
-#### Modeling
-
-Implemented the MLP and combined all of the other classification algorithms (KNN, SVM, Random Forest, SGD, Logistic Regression, Naive Bayes) into a cohesive pipeline. Conducted hyperparameter tuning to optimize model performance.
-
-#### Project Management
-
-I suggested to use git for version control, ensuring reproducibility.
-
-### Key Results
+Led the technical core of a team project to classify cancer primary tissue of origin using mutational signatures — patterns of DNA mutations tied to specific biological processes and exposures. Built the full data pipeline from pieces built by each team member, integrating multiple machine learning models and performing hyperparameter tuning to optimize performance. Evaluated a range of models (KNN, SVM, Random Forest, SGD, Logistic Regression, Naive Bayes, MLP) and found that the Multi-layer Perceptron (MLP) achieved a peak accuracy of 80% after hyperparameter tuning, outperforming all other models. Also introduced Git-based version control to the team workflow, improving reproducibility across the project.
 
 Top Performer: The Multi-layer Perceptron (MLP) achieved a peak accuracy of 80% after hyperparameter tuning.
-![test](assets/images/)
+![test](assets/images/image.png)
 
 ## Automated humidity monitoring (2024) | [github](https://github.com/heksaani/arduino)
 
-An automated greenhouse monitoring and ventilation system built with the Arduino UNO R4 WiFi.
+Arduino · C++ · IoT · Embedded Systems
+
+Designed and built an automated humidity monitoring and ventilation control system with my friend for a greenhouse environment using the Arduino UNO R4 WiFi. The system reads sensor data in real time and triggers ventilation responses automatically, removing the need for manual monitoring.
 
 ## Health data notebook (2022)
 
-Our task was to come up with an inspiring idea to get familiar with different aspects of data science. We decided to create HealthNotebook, which analyses data given by the user and recommends ways to improve sleep. We decided to create an interactive Jupyter notebook since the time was limited. This could be further developed into a web and/or mobile application.
+Python · Jupyter · Data Analysis
+
+Designed an interactive data analysis tool that ingests personal health data and generates tailored sleep improvement recommendations. Built as a Jupyter notebook to maximise accessibility within a short timeframe, with a proposed path toward a full web or mobile application. Introduced me to the full cycle of data science work: problem framing, data handling, insight generation, and communicating results to non-technical users.
