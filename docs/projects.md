@@ -1,6 +1,6 @@
 # Projects
 
-## Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities (2024-2025)
+## Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities (2024-2025) | [thesis](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5) 
 
 Bioinformatics · Random Forest · Python
 
