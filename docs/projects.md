@@ -1,6 +1,6 @@
 # Projects
 
-## Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities (2024-2025) | [thesis](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5) 
+## Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities (2024-2025) | [thesis](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5)
 
 Bioinformatics · Random Forest · Python
 
@@ -13,7 +13,7 @@ Python · Telegram API · Last.fm API
 
 Built a Telegram bot that pulls and surfaces personalised music listening statistics from Last.fm. Lets users query their listening history, top artists, and recent tracks directly from a chat interface — no app switching required.
 
-![test](assets/images/lastfm.png)
+![test](images/lastfm.png)
 
 ## Classifying cancer tissue types (2024) | [notebook](https://github.com/heksaani/ML-in-molecular-biology/blob/main/GROUP_WORK/GROUP.ipynb)
 
@@ -22,7 +22,7 @@ Machine Learning · Python · Scikit-learn · Plotly
 Led the technical core of a team project to classify cancer primary tissue of origin using mutational signatures — patterns of DNA mutations tied to specific biological processes and exposures. Built the full data pipeline from pieces built by each team member, integrating multiple machine learning models and performing hyperparameter tuning to optimize performance. Evaluated a range of models (KNN, SVM, Random Forest, SGD, Logistic Regression, Naive Bayes, MLP) and found that the Multi-layer Perceptron (MLP) achieved a peak accuracy of 80% after hyperparameter tuning, outperforming all other models. Also introduced Git-based version control to the team workflow, improving reproducibility across the project.
 
 Top Performer: The Multi-layer Perceptron (MLP) achieved a peak accuracy of 80% after hyperparameter tuning.
-![test](assets/images/image.png)
+![test](images/image.png)
 
 ## Automated humidity monitoring (2024) | [github](https://github.com/heksaani/arduino)
 

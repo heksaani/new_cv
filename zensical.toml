@@ -22,15 +22,12 @@ nav = [
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
 #site_url = "https://www.example.com/"
-site_url = "https://heidiputkuri.github.io/new_cv/"
+site_url = "https://heksaani.github.io/new_cv/"
 
 
-# The copyright notice appears in the page footer and can contain an HTML
-# fragment.
-#
-# Read more: https://zensical.org/docs/setup/basics/#copyright
+# 
 copyright = """
-Copyright &copy; 2025 Heidi Putkuri
+Copyright &copy; 2026 Heidi Putkuri
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
