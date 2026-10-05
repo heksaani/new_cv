@@ -9,13 +9,12 @@
 [project]
 
 site_name = "CV"
-site_description = "A new project for my CV generated from the default template project."
+site_description = "CV of Heidi Putkuri – bioinformatician working towards data engineering and machine learning."
 site_author = "Heidi Putkuri"
 
 nav = [
   {"Home" = "index.md"},
   {"Projects" = "projects.md"},
-  {"Photography" = "photography.md"},
 ]
 
 # The site_url is the canonical URL for your site. When building online
@@ -50,7 +49,7 @@ Copyright &copy; 2026 Heidi Putkuri
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["assets/stylesheets/extra.css"]
+extra_css = ["stylesheets/print.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -86,7 +85,7 @@ Copyright &copy; 2026 Heidi Putkuri
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-#favicon = "assets/images/favicon.png"
+favicon = "images/favicon.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -292,8 +291,12 @@ toggle.name = "Switch to light mode"
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-#[[project.extra.social]]
-#icon = "fontawesome/brands/github"
-#link = "https://github.com/user/repo"
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/heksaani"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/heidi-putkuri/"
 
 

@@ -38,7 +38,7 @@ gantt
 [Finnish Institute for Health and Welfare](https://thl.fi/en/main-page) | July 2025 - Present
 
 - **Automated sequencing data analysis workflows**, reducing manual processing time, by developing Python-based pipeline orchestration for viral sequencing data.
-- **Part of LIMS database migration** affecting thousands of records and hundreds of users, creating data views using sql to ensure data integrity and consistency during the migration process.
+- **Part of LIMS database migration** affecting thousands of records and hundreds of users, creating data views using SQL to ensure data integrity and consistency during the migration process.
 
 **Tools:** Python · Git · Nextflow · Oracle · Docker · Linux · SQL
 
@@ -50,10 +50,10 @@ University of Helsinki | June 2024 - October 2024
 
 **Thesis:** [Classifying Bacterial Species Using Methylation Patterns in Complex Microbial Communities](https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5)
 
-I worked full-time on my master’s thesis project, which involved developing a machine learning model to classify bacterial species based on NGS methylation data. This work is part of a scientific publication (Markkanen et al., 2026). The project demonstrated my ability to independently take a bioinformatics project from raw data to a publishable method. Random Forest model achieved 94% classification accuracy. My work was part of a larger scientific publication soon to be published. Current preprint is available [here](https://www.medrxiv.org/content/10.64898/2026.02.18.26346558v2).
+I worked full-time on my master’s thesis project, which involved developing a machine learning model to classify bacterial species based on NGS methylation data. This work is part of a scientific publication (Markkanen et al., 2026). The project demonstrated my ability to independently take a bioinformatics project from raw data to a publishable method. The Random Forest model achieved 94% classification accuracy. The current preprint is available [here](https://www.medrxiv.org/content/10.64898/2026.02.18.26346558v2).
 I created a reproducible analysis workflow documented in a version-controlled Python codebase that is part of the publication repository found [here](https://github.com/melinamarkkanen/Methylation).
 
-**Tools:** Python · Scikit-learn · Pandas · Git · Jupyter Notebook ·
+**Tools:** Python · Scikit-learn · Pandas · Git · Jupyter Notebook
 
 ---
 
@@ -102,7 +102,7 @@ Currently using ![VSCode](https://img.shields.io/badge/VSCode-99c9ef?style=flat&
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![GitLab](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=fff)](#)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](#)  
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)](#)
-[![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)](#) [![Great Expectations](https://img.shields.io/badge/Great%20Expectations-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMDguODg1IDExOS4yODRhOC4wMDQgOC4wMDQgMCAwIDAgLTYuODg1LS4zMDJsLTQ5LTQ2LjAyNWE4IDggMCAwIDAtMTEuMDg2IDBsLTQ5IDQ2LjAyNWE4IDggMCAwIDAtLjA4NiA3Ljg4OGw3LjA4NiA2LjQxMWE4IDggMCAwIDAgNi44ODUuMzAybDIxLjk3NC0xNi42OCA1MC40NSA0Ni4wMjRhOCA4IDAgMCAwIDIuNzQzIDEuNzkzWm01LjI1Mi05Mi4xODNMNTcuNzQgNjRsMzguMjggMjkuMDU4VjM0Ljk0M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPgo=)](#)
+[![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)](#) [![Great Expectations](https://img.shields.io/badge/Great%20Expectations-FF6310?style=flat)](#)
 
 ### Databases & Cloud
 

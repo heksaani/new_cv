@@ -1,0 +1,32 @@
+/* Clean printout for the "Download PDF" button */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-path,
+  .md-top,
+  .md-button {
+    display: none !important;
+  }
+
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
+
+  h2, h3 {
+    break-after: avoid;
+  }
+
+  img {
+    break-inside: avoid;
+  }
+}
