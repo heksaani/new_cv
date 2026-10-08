@@ -1,0 +1,12 @@
+[project]
+name = "stock-screener"
+version = "0.1.0"
+description = "Momentum/trend stock screener that suggests buy candidates from a watchlist"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "yfinance>=0.2.40",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
