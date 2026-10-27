@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heidi Putkuri – Bioinformatics & data engineering</title>
+  <meta name="description" content="Heidi Putkuri, bioinformatician in Helsinki building automated pipelines and machine learning for sequencing data. Projects, experience and CV.">
+  <meta name="author" content="Heidi Putkuri">
+  <meta property="og:title" content="Heidi Putkuri – Bioinformatics & data engineering">
+  <meta property="og:description" content="Automated pipelines and machine learning for sequencing data. Projects, experience and CV.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://heksaani.github.io/new_cv/">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preload" href="fonts/BricolageGrotesque96pt-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PublicSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply a saved theme choice before the page paints.
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <a class="wordmark" href="#top">Heidi Putkuri</a>
+  <nav aria-label="Sections">
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <button class="theme-toggle" type="button" aria-label="Switch colour theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <h1>Heidi Putkuri</h1>
+    <p class="lede">I build automated pipelines and machine-learning models for sequencing data. I work as a bioinformatician at the Finnish Institute for Health and Welfare and study data engineering and AI part-time.</p>
+    <p class="place">Helsinki, Finland</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="mailto:heidi.putkuri@hotmail.com">Email me</a>
+      <a class="btn" href="https://github.com/heksaani" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/heidi-putkuri/" target="_blank" rel="noopener">LinkedIn</a>
+      <button class="btn print-cv" type="button">Save CV as PDF</button>
+    </div>
+
+    <!-- Career track: drawn like a genome browser, years as the coordinate axis -->
+    <figure class="track" aria-labelledby="track-cap">
+      <div class="track-scroll">
+        <div class="track-inner" style="--from:2019; --to:2029; --now:2026.82">
+          <div class="ruler" aria-hidden="true">
+            <span style="--x:2019">2019</span><span style="--x:2020">2020</span><span style="--x:2021">2021</span>
+            <span style="--x:2022">2022</span><span style="--x:2023">2023</span><span style="--x:2024">2024</span>
+            <span style="--x:2025">2025</span><span style="--x:2026">2026</span><span style="--x:2027">2027</span>
+            <span style="--x:2028">2028</span>
+          </div>
+
+          <div class="lane" data-kind="work">
+            <span class="lane-name">Work</span>
+            <div class="row">
+              <a class="feat" href="#exp-folkhalsan" style="--s:2023; --e:2025"><span>Research assistant, Folkhälsan</span></a>
+              <a class="feat open" href="#exp-thl" style="--s:2025.5; --e:2026.82"><span>Bioinformatician, THL</span></a>
+            </div>
+            <div class="row">
+              <a class="feat" href="#exp-fision" style="--s:2021.67; --e:2022.17"><span>Software testing, Fision</span></a>
+              <a class="feat thesis" href="#exp-thesis" style="--s:2024.42; --e:2024.83"><span>Master's thesis</span></a>
+            </div>
+          </div>
+
+          <div class="lane" data-kind="edu">
+            <span class="lane-name">Study</span>
+            <div class="row">
+              <a class="feat" href="#education" style="--s:2019; --e:2022"><span>BSc Molecular Biosciences</span></a>
+              <a class="feat" href="#education" style="--s:2022; --e:2025"><span>MSc Life Science Informatics</span></a>
+            </div>
+            <div class="row">
+              <a class="feat planned" href="#education" style="--s:2024; --e:2028"><span>BSc Data Engineering & AI</span></a>
+            </div>
+          </div>
+
+          <div class="now" aria-hidden="true"><span>now</span></div>
+        </div>
+      </div>
+      <figcaption id="track-cap">Work and study since 2019. Select a bar to jump to the details.<span class="swipe"> Swipe sideways to see earlier years.</span></figcaption>
+    </figure>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects" aria-labelledby="projects-h">
+    <h2 id="projects-h">Selected projects</h2>
+
+    <article class="project featured">
+      <div class="project-head">
+        <h3>Classifying bacterial species from methylation patterns</h3>
+        <p class="project-meta">Master's thesis, 2024–2025</p>
+      </div>
+      <div class="project-body">
+        <p>Bacterial species are hard to tell apart in mixed microbial communities because their signals overlap. I developed a method that turns methylation signals from sequencing data into position weight matrices and classifies species with a Random Forest. It reached <strong>94% species-level accuracy</strong> on real wastewater samples.</p>
+        <p>The work is part of a scientific publication (Markkanen et al., 2026). The analysis workflow is a version-controlled Python codebase in the publication repository.</p>
+        <ol class="pipeline" aria-label="Method steps">
+          <li>Sequencing reads with methylation calls</li>
+          <li>Motif signals as position weight matrices</li>
+          <li>Random Forest classifier</li>
+          <li>Species per sample</li>
+        </ol>
+        <p class="links">
+          <a href="https://helda.helsinki.fi/items/bd303d03-ac17-4479-b5c5-2918cf1c96e5" target="_blank" rel="noopener">Read the thesis</a>
+          <a href="https://www.medrxiv.org/content/10.64898/2026.02.18.26346558v2" target="_blank" rel="noopener">Preprint on medRxiv</a>
+          <a href="https://github.com/melinamarkkanen/Methylation" target="_blank" rel="noopener">Code on GitHub</a>
+        </p>
+        <p class="stack">Python, scikit-learn, pandas, Jupyter, Git</p>
+      </div>
+    </article>
+
+    <article class="project with-figure">
+      <div class="project-head">
+        <h3>Cancer tissue of origin from mutational signatures</h3>
+        <p class="project-meta">Team project, 2024</p>
+      </div>
+      <div class="project-body">
+        <p>I led the technical side of a team project that predicts a tumour's primary tissue from its mutational signatures. I joined the team members' parts into one data pipeline, compared seven models (KNN, SVM, Random Forest, SGD, logistic regression, naive Bayes and MLP) and tuned their hyperparameters. A multi-layer perceptron performed best at 80% accuracy. I also brought Git into the team's workflow.</p>
+        <p class="links"><a href="https://github.com/heksaani/ML-in-molecular-biology/blob/main/GROUP_WORK/GROUP.ipynb" target="_blank" rel="noopener">Open the notebook</a></p>
+        <p class="stack">Python, scikit-learn, Plotly</p>
+      </div>
+      <figure class="project-fig">
+        <img src="images/image.png" width="937" height="582" loading="lazy"
+             alt="Confusion matrix of the MLP model across 23 tissue types. Most predictions fall on the diagonal; overall accuracy 0.80.">
+        <figcaption>Confusion matrix for the best model (MLP), 23 tissue types.</figcaption>
+      </figure>
+    </article>
+
+    <article class="project with-figure">
+      <div class="project-head">
+        <h3>Last.fm statistics bot for Telegram</h3>
+        <p class="project-meta">Personal project, 2025</p>
+      </div>
+      <div class="project-body">
+        <p>A Telegram bot that answers questions about your music listening. It calls the Last.fm API and replies with your top artists and tracks for the week or month, or the song playing right now, without leaving the chat.</p>
+        <p class="links"><a href="https://github.com/heksaani/LASTFMBOT" target="_blank" rel="noopener">Code on GitHub</a></p>
+        <p class="stack">Python, Telegram Bot API, Last.fm API</p>
+      </div>
+      <figure class="project-fig phone">
+        <img src="images/lastfm.png" width="864" height="988" loading="lazy"
+             alt="Telegram chat with the bot: a list of commands, then the user's top 10 tracks of the month and the currently playing song.">
+        <figcaption>The bot's commands and a monthly top-tracks reply.</figcaption>
+      </figure>
+    </article>
+
+    <h3 class="minor-h">Other projects</h3>
+    <ul class="minor">
+      <li>
+        <a href="https://github.com/heksaani/arduino" target="_blank" rel="noopener">Greenhouse humidity monitoring</a>
+        <span class="minor-year">2024</span>
+        <p>An Arduino UNO R4 WiFi system, built with a friend, that reads humidity sensors in real time and switches ventilation on automatically. Arduino, C++.</p>
+      </li>
+      <li>
+        <a href="https://github.com/heksaani/DataScienceProject/blob/main/HealthNotebook.ipynb" target="_blank" rel="noopener">Sleep recommendations from health data</a>
+        <span class="minor-year">2022</span>
+        <p>An interactive Jupyter notebook that reads personal health data and suggests ways to sleep better. Python, Jupyter.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience" aria-labelledby="experience-h">
+    <h2 id="experience-h">Experience</h2>
+
+    <article class="job" id="exp-thl">
+      <p class="when">Jul 2025 – present</p>
+      <div>
+        <h3>Bioinformatician</h3>
+        <p class="org"><a href="https://thl.fi/en/main-page" target="_blank" rel="noopener">Finnish Institute for Health and Welfare (THL)</a></p>
+        <ul>
+          <li>Automate the analysis of viral sequencing data with Python-based pipeline orchestration, cutting manual processing time.</li>
+          <li>Take part in a LIMS database migration covering thousands of records and hundreds of users; write SQL views to keep data consistent through the migration.</li>
+        </ul>
+        <p class="stack">Python, Nextflow, SQL, Oracle, Docker, Linux, Git</p>
+      </div>
+    </article>
+
+    <article class="job" id="exp-thesis">
+      <p class="when">Jun 2024 – Oct 2024</p>
+      <div>
+        <h3>Master's thesis researcher</h3>
+        <p class="org">University of Helsinki</p>
+        <ul>
+          <li>Took a bioinformatics project independently from raw data to a published method: species classification from methylation patterns, 94% accuracy (see <a href="#projects">projects</a>).</li>
+        </ul>
+        <p class="stack">Python, scikit-learn, pandas, Jupyter, Git</p>
+      </div>
+    </article>
+
+    <article class="job" id="exp-folkhalsan">
+      <p class="when">Jan 2023 – Dec 2024</p>
+      <div>
+        <h3>Research assistant, Eye Genetics Group</h3>
+        <p class="org"><a href="https://research.folkhalsan.fi/genetics/eye-genetics" target="_blank" rel="noopener">Folkhälsan Research Institute</a></p>
+        <ul>
+          <li>Analysed next-generation sequencing data to find genetic variants linked to eye diseases.</li>
+          <li>Built and maintained pipelines from raw reads to annotated variants: quality control, alignment, variant calling and annotation.</li>
+          <li>Moved the group's data and pipelines to CSC's Puhti supercomputer and Allas object storage, and tuned them for large datasets.</li>
+        </ul>
+        <p class="stack">Python, Bash, SLURM, CSC Puhti, CSC Allas (S3), Linux, Git</p>
+      </div>
+    </article>
+
+    <article class="job" id="exp-fision">
+      <p class="when">Sep 2021 – Feb 2022</p>
+      <div>
+        <h3>Software testing intern</h3>
+        <p class="org"><a href="https://www.fision.fi/fi/" target="_blank" rel="noopener">Fision Oy</a></p>
+        <ul>
+          <li>Tested the user interface of the company's software: ran test cases, documented bugs and worked with developers on fixes.</li>
+        </ul>
+        <p class="stack">GUI testing, QA documentation</p>
+      </div>
+    </article>
+
+    <h3 class="minor-h" id="education">Education</h3>
+    <ul class="edu">
+      <li><span class="when">2024 – 2028</span><span>BSc Data Engineering and AI, Kajaani University of Applied Sciences <em>(part-time, in progress)</em></span></li>
+      <li><span class="when">2022 – 2025</span><span>MSc Life Science Informatics (Bioinformatics), University of Helsinki</span></li>
+      <li><span class="when">2019 – 2022</span><span>BSc Molecular Biosciences, minor in Computer Science, University of Helsinki</span></li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <div class="skills">
+      <div>
+        <h3>Languages</h3>
+        <p>Python, SQL, Bash, R, Java, JavaScript, HTML, CSS, Ruby</p>
+      </div>
+      <div>
+        <h3>Data and machine learning</h3>
+        <p>pandas, NumPy, scikit-learn, PyTorch, TensorFlow, Optuna, MLflow, Plotly, tidyverse</p>
+      </div>
+      <div>
+        <h3>Pipelines and infrastructure</h3>
+        <p>Nextflow, Docker, GitHub Actions, GitLab, SLURM, Terraform, Azure, Great Expectations</p>
+      </div>
+      <div>
+        <h3>Databases and storage</h3>
+        <p>Oracle, PostgreSQL, MongoDB, AWS S3</p>
+      </div>
+      <div>
+        <h3>Bioinformatics</h3>
+        <p>NGS quality control, sequence alignment, variant calling and annotation, methylation analysis</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Looking for someone who speaks both biology and data? <a href="mailto:heidi.putkuri@hotmail.com">heidi.putkuri@hotmail.com</a></p>
+  <p class="small">© 2026 Heidi Putkuri</p>
+</footer>
+
+<script>
+  // Theme toggle: remembers the choice in this browser when storage is available.
+  document.querySelector('.theme-toggle').addEventListener('click', function () {
+    var root = document.documentElement;
+    var dark = root.dataset.theme ? root.dataset.theme === 'dark'
+             : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+  });
+  // On narrow screens, start the career track at the most recent years.
+  var sc = document.querySelector('.track-scroll');
+  if (sc.scrollWidth > sc.clientWidth) sc.scrollLeft = sc.scrollWidth;
+  document.querySelector('.print-cv').addEventListener('click', function () { window.print(); });
+</script>
+</body>
+</html>
